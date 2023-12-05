@@ -1,6 +1,6 @@
 import './styles/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from './modules/auth/views/Login'
+import Busqueda from './components/Busqueda'
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
          <BrowserRouter>
             <Routes>
-            <Route exact path="/" element={<Login />}></Route>
+            <Route exact path="/" element={<Busqueda />}></Route>
             </Routes>
           </BrowserRouter>
     </div>
